@@ -1,0 +1,2 @@
+SERVERS="1.108.1.3"
+INTERFACES="eth0 eth1 eth2"

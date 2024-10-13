@@ -1,0 +1,43 @@
+$TTL	604800
+@	IN	SOA	ns.isp108.lab. root.isp108.lab. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+
+@		          IN	  NS	  ns.isp108.lab.
+11.1.in-addr.arpa.		  IN	  NS	  ns.isp11.lab.
+12.1.in-addr.arpa.		  IN	  NS	  ns.isp12.lab.
+
+2.1.108.1.in-addr.arpa.	  IN      PTR     ns.isp108.lab.
+4.1.108.1.in-addr.arpa.	  IN      PTR     www.isp108.lab.
+3.1.108.1.in-addr.arpa.   IN      PTR     dhcpd.isp108.lab.
+
+5.0.0.1.in-addr.arpa.     IN      PTR     r1eth0.isp108.lab.
+1.7.108.1.in-addr.arpa.   IN      PTR     r1eth1.isp108.lab.
+1.4.108.1.in-addr.arpa.   IN      PTR     r1eth2.isp108.lab.
+1.6.108.1.in-addr.arpa.   IN      PTR     r1eth3.isp108.lab.
+1.8.108.1.in-addr.arpa.   IN      PTR     r1dum0.isp108.lab.
+
+1.0.21.2.in-addr.arpa.    IN      PTR     r2eth0.isp108.lab.
+2.7.108.1.in-addr.arpa.   IN      PTR     r2eth1.isp108.lab.
+1.5.108.1.in-addr.arpa.   IN      PTR     r2eth2.isp108.lab.
+1.9.108.1.in-addr.arpa.   IN      PTR     r2dum0.isp108.lab.
+
+1.1.108.1.in-addr.arpa.   IN      PTR     r3eth0.isp108.lab.
+2.3.108.1.in-addr.arpa.   IN      PTR     r3eth1.isp108.lab.
+2.5.108.1.in-addr.arpa.   IN      PTR     r3eth2.isp108.lab.
+2.6.108.1.in-addr.arpa.   IN      PTR     r3eth3.isp108.lab.
+1.10.108.1.in-addr.arpa.  IN      PTR     r3dum0.isp108.lab.
+
+1.2.108.1.in-addr.arpa.   IN      PTR     r4eth0.isp108.lab.
+1.3.108.1.in-addr.arpa.   IN      PTR     r4eth1.isp108.lab.
+2.4.108.1.in-addr.arpa.   IN      PTR     r4eth2.isp108.lab.
+1.11.108.1.in-addr.arpa.  IN      PTR     r4dum0.isp108.lab.
+
+2.2.108.1.in-addr.arpa.   IN	  PTR	  client2.isp108.lab.
+3.2.108.1.in-addr.arpa.   IN	  PTR	  client3.isp108.lab.
+
+108.1.in-addr.arpa.		  IN	  NS	  ns.isp108.lab.
